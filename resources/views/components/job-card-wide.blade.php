@@ -1,11 +1,11 @@
-<div class="p-4 bg-white/5 rounded-xl flex gap-x-6">
-    {{-- <div> <img src="http://placehold.it/42/42" alt="" /> </div> --}}
+<x-panel class="flex gap-x-6">
+    {{-- <div> <x-employer-logo /> </div> --}}
     <div class="box-border h-20 w-20 bg-red-400 rounded-xl"></div>
 
     <div class="flex-1 flex flex-col">
         <a href="#" class="self-start text-sm text-gray-400">Laracasts</a>
 
-        <h3 class="font-bold text-xl mt-3">Video Producer</h3>
+        <h3 class="group-hover:text-blue-800 font-bold text-xl mt-3 transition-colors duration-1000">Video Producer</h3>
         <p class="text-sm text-gray-400 mt-auto">Full Time - From $60,000</p>
 
     </div>
@@ -21,4 +21,4 @@
 
 
 
-</div>
+</x-panel>
